@@ -55,7 +55,7 @@ export default function Navbar() {
                             href="/patricklange_resume.pdf"
                             download
                         >
-                            Download Resume
+                            Resume
                         </a>
                     </li>
                     <li className="pr-10 py-2">
