@@ -50,13 +50,20 @@ export default function Navbar() {
             <div className="flex flex-row justify-center md:justify-end">
                 <ul className={`${isMobileMenuVisible ? '' : 'hidden'} md:flex md:flex-row`} id="mobileMenu">
                     <li className="pr-10 py-2">
-                        <a className="transition duration-250 ease-in-out text-lg hover:text-green-300" href="#">
-                            Publications
+                        <a
+                            className="transition duration-250 ease-in-out text-lg hover:text-green-300"
+                            href="/patricklange_resume.pdf"
+                            download
+                        >
+                            Download Resume
                         </a>
                     </li>
                     <li className=" py-2">
-                        <a className="transition duration-250 ease-in-out text-lg hover:text-green-300 " href="#">
-                            Resume
+                        <a
+                            className="transition duration-250 ease-in-out text-lg hover:text-green-300 "
+                            href="https://scholar.google.com/citations?hl=en&user=6TxeqJwAAAAJ&view_op=list_works&sortby=pubdate"
+                        >
+                            Publications
                         </a>
                     </li>
                 </ul>
