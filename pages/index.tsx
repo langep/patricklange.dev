@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Layout from '../components/layout';
-import { siteTitle } from '../components/constants';
+import { siteTitle, name } from '../components/constants';
 
 export default function Home() {
     return (
@@ -13,7 +13,7 @@ export default function Home() {
                 <div className="p-10">
                     <p className="font-medium text-5xl md:text-9xl">Hi.</p>
                     <p className="text-base md:text-3xl py-5">
-                        My name is <span className="">Patrick Lange</span>. <br />I am a{' '}
+                        My name is <span className="">{name}</span>. <br />I am a{' '}
                         <span className="">Research Engineer</span> interested in Conversational AI and Games. <br />I am
                         currently working at Amazon, AGI.
                     </p>
