@@ -14,8 +14,8 @@ export default function Home() {
                     <p className="font-medium text-5xl md:text-9xl">Hi.</p>
                     <p className="text-base md:text-3xl py-5">
                         My name is <span className="">{name}</span>. <br />I am a{' '}
-                        <span className="">Research Engineer</span> interested in Conversational AI and Games. <br />I am
-                        currently working at Amazon, AGI.
+                        <span className="">Software Engineer</span> interested in conversational AI and video games. <br />I currently
+                        work on LLM inference optimizations for AWS Neuron hardware at Amazon.
                     </p>
                 </div>
             </div>
